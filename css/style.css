@@ -63,8 +63,7 @@ a:hover, a:active, a:visited  {
   color: rgba(46, 48, 58, 0.96);
 }
 .project-title a:hover,
-.project-title a:active,
-.project-title a:visited {
+.project-title a:active {
   color: #009BB5;
 }
 .github-card-details {
