@@ -14,74 +14,85 @@ body {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgba(46, 48, 58, 0.96);
     background-color: #f7f7f7;
     -webkit-font-smoothing: antialiased; }
-.container {
-  padding-top: 15%;
-}
+.container { padding-top: 15% }
 .github-card {
-  font-family: sans-serif;
-  border-radius: 4px;
-  border: 1px solid #d1d1d1;
-  width: 30rem;
-  margin: 0 auto;
-  background-color: #fff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+    font-family: sans-serif;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    width: 30rem;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); }
 a {
-  color: #0cb4ce;
-  text-decoration: none;
-  cursor: pointer;
-}
-a:hover, a:active, a:visited  {
-  color: #009BB5;
-}
-.github-card-header {
-  padding: 2.5rem 1.5rem;
-}
-.github-card-header + .github-card-body {
-  margin-top: -2.5rem;
-  padding-top: 0;
-}
+    color: #0cb4ce;
+    text-decoration: none;
+    cursor: pointer; }
+a:hover,
+a:active { color: #009BB5 }
+.github-card-header { padding: 2.5rem 1.5rem }
+    .github-card-header + .github-card-body {
+        margin-top: -2.5rem;
+        padding-top: 0; }
 .github-title {
-  color: #b7b7b7;
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  margin: 0;
-  position: relative;
-  text-transform: uppercase;
-  padding-bottom: 1.25rem;
-}
+    color: #b7b7b7;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem; }
 .project-title {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  margin: 0;
-}
-.project-title a {
-  color: rgba(46, 48, 58, 0.96);
-}
-.project-title a:hover,
-.project-title a:active,
-.project-title a:visited {
-  color: #009BB5;
-}
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 0; }
+    .project-title a { color: rgba(46, 48, 58, 0.96) }
+    .project-title a:hover,
+    .project-title a:active { color: #009BB5 }
 .github-card-details {
-  border-top: 1px solid #d1d1d1;
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  font-weight: 500;
-  padding: 2.1rem;
-  margin: 2.5rem 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.github-card-details dt {
-  padding-right: 1rem;
-}
-.github-card-details dd {
-  margin: 0;
-  padding-right: 1.7rem;
-}
+    border-top: 1px solid #d1d1d1;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    padding: 2.1rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .github-card-details dt { padding-right: 1rem }
+    .github-card-details dd {
+        margin: 0;
+        padding-right: 1.7rem; }
+.project-details {
+    display: none;
+    background: #f7f7f7;
+    padding: 2rem 1rem 1rem 1rem;
+    border-top: 1px solid #d1d1d1; }
+.expand-button {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-left: 25rem;
+    margin-bottom: -1.9rem;
+    color: #fff;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.275);
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease; }
+    .expand-button .close {
+        -webkit-transition: -webkit-transform 400ms ease;
+        transition: -webkit-transform 400ms ease;
+        transition: transform 400ms ease;
+        transition: transform 400ms ease, -webkit-transform 400ms ease; }
+.expand-button:hover { box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275) }
+.closeRotate {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
