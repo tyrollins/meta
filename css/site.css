@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after { box-sizing: inherit }
+::-moz-selection {
+    background: #79d6e6;
+    color: #fff; }
+::selection {
+    background: #79d6e6;
+    color: #fff; }
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; }
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgba(46, 48, 58, 0.96);
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased; }
+.container { padding-top: 15% }

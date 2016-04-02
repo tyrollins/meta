@@ -1,0 +1,126 @@
+
+.github-card {
+    font-family: sans-serif;
+    border-radius: .75rem;
+    border: 1px solid #e5e5e5;
+    /*Edit width of github project card*/
+    width: 25%;
+    margin: 0 auto;
+    background-color: #fff;
+    /* Remove box shadow to get rid of material floating styling */
+    /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+  }
+.github-card a {
+    color: #0cb4ce;
+    text-decoration: none;
+    cursor: pointer; }
+.github-card a:hover,
+.github-carcd a:active { color: #009BB5 }
+.github-card-header { padding: 2.5rem 1.5rem 1rem; }
+    .github-card-header + .github-card-body {
+        margin-top: -2.5rem;
+        padding-top: 0; }
+.github-title {
+    color: #bbb;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 1.25rem; }
+.project-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 0; }
+    .project-title a { color: rgba(46, 48, 58, 0.96) }
+    .project-title a:hover,
+    .project-title a:active { color: #009BB5 }
+.github-card-details {
+    border-top: 1px solid #e5e5e5;
+    background: #f5f5f5;
+    color: #333;
+    border-bottom-left-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    padding: 2.1rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .github-card-details dt { padding-right: 1rem }
+    .github-card-details dd {
+        margin: 0;
+        padding-right: 1.7rem; }
+.project-details {
+    display: none;
+    background: #fafafa;
+    padding: 2rem 0 0;
+    border-top: 1px solid #e5e5e5;
+    color: #333;
+      }
+      .project-details-text {
+        padding: 0 1rem 1rem 1rem;
+      }
+.project-button {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-left: 80%;
+    margin-bottom: -1.9rem;
+    color: #fff;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    /* Remove box shadow to get rid of material floating styling */
+    /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.275);*/
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    }
+    .project-button .project-close {
+        -webkit-transition: -webkit-transform 400ms ease;
+        transition: -webkit-transform 400ms ease;
+        transition: transform 400ms ease;
+        transition: transform 400ms ease, -webkit-transform 400ms ease; }
+        /* Remove box shadow to get rid of material floating styling */
+/*.project-button:hover { box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275) }*/
+.closeRotate {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+.social-links {
+height: 10%;
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.twitter-link {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background: #55acee;
+  width: 50%;
+  cursor: pointer;
+  height: 100%;
+}
+.fb-link {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background: #3b5998;
+  width: 50%;
+  cursor: pointer;
+  height: 100%;
+}
